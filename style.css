@@ -1,0 +1,22 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,Arial,sans-serif}
+body{padding:1rem;max-width:900px;margin:auto;background:#f4f6f8;color:#222}
+header,footer{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
+h1{margin:.5rem 0}
+a{color:#0a63c9;text-decoration:none}
+a:hover{text-decoration:underline}
+.notice{background:#fff;padding:1rem;margin-bottom:1rem;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.notice h2{margin-bottom:.25rem}
+.notice time{display:block;font-size:.85rem;color:#555;margin-bottom:.5rem}
+.empty{text-align:center;color:#666;margin-top:2rem}
+.centered{display:flex;align-items:center;justify-content:center;min-height:100vh}
+.card{background:#fff;padding:1.25rem;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.1);width:360px}
+.card h1{margin-bottom:1rem;text-align:center}
+label{display:block;margin-bottom:.75rem;font-size:.9rem}
+input,textarea{width:100%;padding:.55rem;border:1px solid #cfd6df;border-radius:6px}
+button{padding:.55rem 1rem;border:none;border-radius:6px;background:#0a63c9;color:#fff;cursor:pointer}
+button:hover{background:#084f9b}
+table{width:100%;border-collapse:collapse;margin-top:1rem;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+th,td{padding:.6rem;border-bottom:1px solid #e7ecf2;text-align:left}
+.new-notice{margin-top:1rem}
+.error{color:#c00;text-align:center;margin-bottom:.75rem}
+nav a{margin-left:.6rem}
