@@ -1,5 +1,4 @@
-CREATE DATABASE IF NOT EXISTS digital_notice_board;
-USE digital_notice_board;
+USE if0_40019741_DBDB;
 
 CREATE TABLE IF NOT EXISTS admins (
   id INT AUTO_INCREMENT PRIMARY KEY,
